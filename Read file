@@ -1,0 +1,12 @@
+file = open("first file.txt", "r")
+# print(file.readable())
+# text =file.read()
+# text= file.readlines()
+# text= file.readlines()[2]
+# print(len(text))
+# print(text)
+
+for i in file:
+    print(i)
+
+file.close()
