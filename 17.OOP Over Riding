@@ -1,0 +1,36 @@
+class Student:
+    roll = " "
+    gpa = " "
+
+    def __init__(self, roll, gpa):
+        self.roll = roll
+        self.gpa = gpa
+
+    def display(self):
+        print(f"Roll : {self.gpa} , GPA : {self.roll}")
+
+# also overridding
+class Scnd_semestar(Student):
+
+    def __init__(self, roll, gpa, pos):
+        super().__init__(roll, gpa) #def meth(self, arg):\ n super().meth(arg)
+
+        self.pos = pos
+
+    def position(self):
+        print("Position is Good")
+
+    def display(self):
+        print(f"Roll : {self.gpa} , GPA : {self.roll},POS :{self.pos}")
+
+
+zubayer = Scnd_semestar(1365469, 4.2, 1)
+zubayer.display()
+
+tonmoy = Scnd_semestar(1911562106, 4.1, 2)
+tonmoy.display()
+
+mamun = Scnd_semestar(18111111, 4.0, 3)
+mamun.display()
+
+zubayer.position()
