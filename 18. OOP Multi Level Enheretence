@@ -1,0 +1,21 @@
+"""class A :
+    def display1(self) :
+        print("I am inside A class")
+
+class B(A):
+    #display 1
+    def display2(self) :
+         print("I am inside B class")
+
+class C(B):
+    #displsy 1 ()
+    #displsy 2 ()
+    def display3(self) :
+        super().display1()
+        super().display2()
+        print("I am the C class")
+
+ob1 =  C()
+#ob1.display1()
+#ob1.dislplsy2()
+ob1.display3()"""
