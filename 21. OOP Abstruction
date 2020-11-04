@@ -1,0 +1,39 @@
+from abc import ABC,abstractmethod
+class Shape(ABC):
+    def __init__(self,value1,value2) :
+        self.value1 = value1
+        self.value2 = value2
+    @abstractmethod
+    def area (self) :
+        pass
+        print("Shape has no area ")
+
+class Triangle(Shape):
+
+    """def __init__(self,value1,value2,value3):
+        super().__init__(value1,value2)
+        self.value3 =value"""
+
+
+    def area (self):
+        area = 0.5*(self.value1 * self.value2)
+        print("Area of Triangle is - ",area)
+
+
+
+class Rectangle(Shape):
+    def area (self):
+        area = self.value1 * self.value2
+        print("Area of Ractangle is -",area)
+
+
+t1 = Triangle(10 , 20 ) #  already  3 is here we can prove it by adding one more value
+t1.area()
+
+r1 = Rectangle(30,20)
+r1.area()
+
+
+
+
+
