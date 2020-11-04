@@ -1,0 +1,36 @@
+#Multipol Enheretence
+# step 1
+"""class A :
+    def display (self) :
+        print(" I am in A class")
+
+class B :
+    def display (self) :
+        print("I am im B class")
+
+class C(A,B) :
+     def display (self) :
+        print("I am in C class")
+
+ob1 = C()
+
+ob1.display()"""
+###################################################################
+#step 2
+
+class A :
+    def display (self) :
+        print(" I am in A class")
+
+class B :
+    def display (self) :
+        print("I am im B class")
+
+class C(A,B) :
+     pass
+
+ob1 = C()
+
+ob1.display()
+
+
