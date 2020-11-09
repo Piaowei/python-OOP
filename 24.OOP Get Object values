@@ -1,0 +1,16 @@
+class Student :
+    def __init__(self,m1,m2):
+        self.m1 = m1
+        self.m2 = m2
+
+    def __str__(self):
+        #return self.m1 , self.m2
+        return '{} {}' . format(self.m1 , self.m2)
+
+
+s1 = Student(70,68)
+s2 = Student(80,68)
+
+#print(s1.__str__())
+print(s1)
+print(s2)
