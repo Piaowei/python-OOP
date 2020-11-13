@@ -1,0 +1,20 @@
+# MODOULE
+
+def triangle_area(b,h):
+    print(f"Area of triangle is : {0.5*b*h}")
+
+def rectangle_area(a,b):
+    print(f"Area of rectangle is : {a*b}")
+def add_num (a,b) :
+    print(f"Addition of 2 number is  {a+b}")
+
+----------------------------------------------------------------
+
+import area2
+c = area2.rectangle_area(5,6)
+d = area2.add_num(8,9)
+
+from area2 import *
+
+rectangle_area(8,6)
+add_num(1,2)
