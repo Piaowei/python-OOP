@@ -1,0 +1,9 @@
+fp = open("test.text","w")
+print(fp.write("Hello\n"))
+fp.close()
+
+
+with open ("test.text","a+") as fp :
+    fp.write("boy")
+
+
