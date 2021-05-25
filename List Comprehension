@@ -1,0 +1,12 @@
+my_food = ["Apple","354","Orange","Tomato"]
+
+#nonInt = []
+
+#for item in my_food:
+
+     #if not str(item).isdigit():
+         #nonInt.append(item.upper())
+
+nonInt =[i for i in my_food if not str(i).isdigit()]
+
+print(nonInt)
